@@ -98,7 +98,7 @@ class TV extends Product{
 
             static public void printProducts() {
                 for (TV tv : soldTVs) {
-                    System.out.println("TV brand is: " + tv.getBrand() + " and size is: " + tv.getSize() + "and smartness is: " + tv.isSmart());
+                    System.out.println("TV brand is: " + tv.getBrand() + " and size is: " + tv.getSize() + " and smartness is: " + tv.isSmart());
                 }
                 System.out.println();
                 for (Phone phone : soldPhones) {
